@@ -1,18 +1,36 @@
-## Getting Started
+### Projeto `aprendendoJava`
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto contém exemplos simples em Java para estudar tipos primitivos e variáveis.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Estrutura do projeto
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Main.java
+  - Exemplo de declaração de tipos primitivos em Java:
+    - `byte`
+    - `short`
+    - `int`
+    - `long`
+    - `float`
+    - `double`
+    - `String`
+    - `char`
+    - `boolean`
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Main.java
+  - Exemplo de declaração e atribuição de variáveis:
+    - variáveis `int`
+    - variáveis `String`
+    - uso de `var` para inferência de tipo
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- bin
+  - Pastas com os resultados de compilação (`tiposPrimitivos/`, `variaveis/`)
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Observações
+
+- O projeto usa pacotes Java (`package tiposPrimitivos;` e `package variaveis;`).
+- Os exemplos são básicos e focados em sintaxe e conceitos iniciais de Java.
+---
